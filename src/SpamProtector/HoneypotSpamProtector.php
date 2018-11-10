@@ -1,4 +1,6 @@
-<?php namespace StudioBonito\SilverStripe\SpamProtection\Honeypot\SpamProtector;
+<?php
+
+namespace StudioBonito\SilverStripe\SpamProtection\Honeypot\SpamProtector;
 
 use StudioBonito\SilverStripe\SpamProtection\Honeypot\FormField\HoneypotField;
 

@@ -2,10 +2,8 @@
 
 namespace StudioBonito\SilverStripe\SpamProtection\Honeypot\FormField;
 
-
 use SilverStripe\Forms\FormField;
 use SilverStripe\Forms\HiddenField;
-
 
 class HoneypotField extends HiddenField
 {
