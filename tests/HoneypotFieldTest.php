@@ -2,6 +2,10 @@
 
 use Mockery as m;
 use StudioBonito\SilverStripe\SpamProtection\Honeypot\FormField\HoneypotField;
+use SilverStripe\Control\Controller;
+use SilverStripe\Forms\Form;
+use SilverStripe\Forms\RequiredFields;
+
 
 class HoneypotFieldTest extends \PHPUnit_Framework_TestCase
 {
@@ -54,12 +58,12 @@ class HoneypotFieldTest extends \PHPUnit_Framework_TestCase
         $request->shouldReceive('postVar')
             ->andReturn(time() + 10);
 
-        $controller = m::mock('Controller');
+        $controller = m::mock(Controller::class);
 
         $controller->shouldReceive('getRequest')
             ->andReturn($request);
 
-        $form = m::mock('Form');
+        $form = m::mock(Form::class);
 
         $form->shouldReceive('getController')
             ->andReturn($controller);
@@ -72,7 +76,7 @@ class HoneypotFieldTest extends \PHPUnit_Framework_TestCase
      */
     protected function getValidator()
     {
-        $validator = m::mock('RequiredFields')
+        $validator = m::mock(RequiredFields::class)
             ->shouldReceive('validationError')
             ->getMock();
 
