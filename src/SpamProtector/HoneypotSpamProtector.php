@@ -1,9 +1,9 @@
 <?php
 
-namespace StudioBonito\SilverStripe\SpamProtection\Honeypot\SpamProtector;
+namespace StudioBonito\SpamProtectionHoneypot\SpamProtector;
 
 use Silverstripe\SpamProtection\SpamProtector;
-use StudioBonito\SilverStripe\SpamProtection\Honeypot\FormField\HoneypotField;
+use StudioBonito\SpamProtectionHoneypot\FormField\HoneypotField;
 
 class HoneypotSpamProtector implements SpamProtector
 {

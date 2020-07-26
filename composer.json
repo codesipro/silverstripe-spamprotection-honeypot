@@ -34,12 +34,12 @@
     },
     "autoload": {
         "psr-4": {
-            "StudioBonito\\SilverStripe\\SpamProtection\\Honeypot\\": "src"
+            "StudioBonito\\SpamProtectionHoneypot\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "StudioBonito\\SilverStripe\\SpamProtection\\Honeypot\\Tests\\": "tests"
+            "StudioBonito\\SpamProtectionHoneypot\\Tests\\": "tests"
         }
     }
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace StudioBonito\SilverStripe\SpamProtection\Honeypot\FormField;
+namespace StudioBonito\SpamProtectionHoneypot\FormField;
 
 use SilverStripe\Forms\FormField;
 use SilverStripe\Forms\HiddenField;

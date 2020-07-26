@@ -1,11 +1,10 @@
-<?php namespace StudioBonito\SilverStripe\SpamProtection\Honeypot\Tests;
+<?php namespace StudioBonito\SpamProtectionHoneypot\Tests;
 
 use Mockery as m;
-use StudioBonito\SilverStripe\SpamProtection\Honeypot\FormField\HoneypotField;
+use StudioBonito\SpamProtectionHoneypot\FormField\HoneypotField;
 use SilverStripe\Control\Controller;
 use SilverStripe\Forms\Form;
 use SilverStripe\Forms\RequiredFields;
-
 
 class HoneypotFieldTest extends \PHPUnit_Framework_TestCase
 {
