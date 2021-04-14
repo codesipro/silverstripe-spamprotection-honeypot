@@ -1,0 +1,8 @@
+---
+Name: spamprotectionhoneypot legacy
+---
+SilverStripe\ORM\DatabaseAdmin:
+  classname_value_remapping:
+  HoneypotSpamProtector: StudioBonito\SpamProtectionHoneypot\SpamProtector\HoneypotSpamProtector
+  HoneypotField: StudioBonito\SpamProtectionHoneypot\FormField\HoneypotField
+  HoneypotFieldTest: StudioBonito\SpamProtectionHoneypot\Tests\HoneypotFieldTest
