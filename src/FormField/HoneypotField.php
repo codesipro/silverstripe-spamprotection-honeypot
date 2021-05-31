@@ -4,6 +4,7 @@ namespace StudioBonito\SpamProtectionHoneypot\FormField;
 
 use SilverStripe\Forms\FormField;
 use SilverStripe\Forms\HiddenField;
+use SilverStripe\Forms\Validator;
 
 class HoneypotField extends HiddenField
 {
@@ -18,7 +19,7 @@ class HoneypotField extends HiddenField
     /**
      * Reject the field if the honeypot has been filled or if the form has been submitted to quickly.
      *
-     * @param $validator
+     * @param Validator $validator
      *
      * @return bool
      */
@@ -37,7 +38,6 @@ class HoneypotField extends HiddenField
                 ),
                 'error'
             );
-
             return false;
         }
 

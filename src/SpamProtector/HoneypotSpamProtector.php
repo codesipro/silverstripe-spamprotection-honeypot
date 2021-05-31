@@ -2,7 +2,7 @@
 
 namespace StudioBonito\SpamProtectionHoneypot\SpamProtector;
 
-use Silverstripe\SpamProtection\SpamProtector;
+use SilverStripe\SpamProtection\SpamProtector;
 use StudioBonito\SpamProtectionHoneypot\FormField\HoneypotField;
 
 class HoneypotSpamProtector implements SpamProtector
