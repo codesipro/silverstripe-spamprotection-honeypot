@@ -21,7 +21,7 @@ class HoneypotSpamProtector implements SpamProtector
      * @param string $title
      * @param mixed  $value
      *
-     * @return \FormField The resulting field
+     * @return FormField The resulting field
      */
     public function getFormField($name = null, $title = null, $value = null)
     {
